@@ -6,6 +6,7 @@ const createRecipeCard = recipe => `
         <div class="recipe__instructions">
             ${recipe.instructions}
         </div>
+        <button id="deleteRecipe--${recipe.id}" class="deleteBtn">Delete</button>
     </section>
   `;
 
