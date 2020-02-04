@@ -11,6 +11,7 @@ const renderRecipes = recipes => {
         const recipeCard = createRecipeCard(recipe)
         recipeList.innerHTML += recipeCard
     }
+    
 }
 
 export default renderRecipes;
