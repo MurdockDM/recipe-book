@@ -1,10 +1,10 @@
 import apiActions from "./api.js";
 import renderRecipes from "./recipeListDom.js";
 
-const addRecipeAddEventListener = () => {
-  const addButton = document.querySelector("#addRecipe");
+const addRecipeSaveEventListener = () => {
+  const saveButton = document.querySelector("#saveRecipe");
 
-  addButton.addEventListener("click", () => {
+  saveButton.addEventListener("click", () => {
     const titleInput = document.querySelector("#recipeTitle");
     const instructionsInput = document.querySelector("#recipeInstructions");
 
@@ -20,4 +20,4 @@ const addRecipeAddEventListener = () => {
   });
 };
 
-export default addRecipeAddEventListener;
+export default addRecipeSaveEventListener;
