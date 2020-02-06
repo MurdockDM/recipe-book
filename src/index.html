@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,20 @@
     <title>Recipe List</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    <article id="recipeForm"></article>
+    <article id="recipeAddForm">
+        <header class="recipe-form__title">
+            Add Recipe
+        </header>
+        <div class="recipe-form__input">
+            <input type="text" id="recipeTitle" placeholder="title" />
+            <input type="text" id="recipeInstructions" placeholder="instructions" />
+        </div>
+        <div class="recipe-form__submit">
+            <button id="addRecipe">Add</button>
+        </div>
+    </article>
     <article id="recipeList"></article>
 
     <script type="module" src="scripts/main.js"></script>
