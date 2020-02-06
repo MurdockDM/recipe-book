@@ -1,14 +1,9 @@
 {
   "recipes": [
     {
-      "id": 1,
-      "title": "Lasagna",
-      "instructions": "Make sauce. Cook noodles. Brown some ground meat. Then layer sauce, noodles, meat, cheese. Repeat layering once more time. Cook on 425 for 45 minutes."
-    },
-    {
-      "id": 2,
-      "title": "Burgers",
-      "instructions": "Preheat grill to 400 degress. Make 6 ground meat patties that are 1 inch thick. Grill meat for 2 minutes on each side."
+      "title": "Burgers and fries",
+      "instructions": "Preheat grill to 400 degress. Make 6 ground meat patties that are 1 inch thick. Grill meat for 2 minutes on each side.\nAdd some fries",
+      "id": 2
     },
     {
       "id": 3,
@@ -17,7 +12,7 @@
     },
     {
       "title": "Sushi",
-      "instructions": "Catch and release",
+      "instructions": "Catch and release onto my plate",
       "id": 6
     },
     {
@@ -44,6 +39,31 @@
       "title": "asdfsd",
       "instructions": "asdfsdfa",
       "id": 12
+    },
+    {
+      "title": "Ice Cream",
+      "instructions": "Just buy it",
+      "id": 13
+    },
+    {
+      "title": "Burgers",
+      "instructions": "Go to Burger King",
+      "id": 14
+    },
+    {
+      "title": "Cheese",
+      "instructions": "milk a cow, then...process it the correct way",
+      "id": 15
+    },
+    {
+      "title": "Roast Duck",
+      "instructions": "Roast it",
+      "id": 16
+    },
+    {
+      "title": "fake meat",
+      "instructions": "you don't need this",
+      "id": 17
     }
   ]
 }

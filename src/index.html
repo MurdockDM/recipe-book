@@ -10,26 +10,12 @@
 </head>
 
 <body>
-    <!-- 
-    <article id="recipeAddForm">
-
-        <header class="recipe-form__title">
-            Add Recipe
-        </header>
-        <div class="recipe-form__input">
-            <input type="text" id="recipeTitle" placeholder="title" />
-            <input type="text" id="recipeInstructions" placeholder="instructions" />
-        </div>
-        <div class="recipe-form__submit">
-            <button id="addRecipe">Add</button>
-        </div>
-    </article>
--->
     <header class="title">Recipe Book</header>
 
     <section id="recipeForm">
 
         <form>
+            <input type="hidden" id="recipeId" value="" />
             <fieldset class="fieldset">
                 <label for="recipeTitle">Title</label>
                 <input type="text" name="recipeTitle" id="recipeTitle">
@@ -39,6 +25,7 @@
                 <textarea name="recipeInstructions" id="recipeInstructions"></textarea>
             </fieldset>
         </form>
+
         <button id="saveRecipe">Save Recipe</button>
     </section>
 
