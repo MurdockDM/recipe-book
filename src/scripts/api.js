@@ -14,6 +14,15 @@ export default {
             body: JSON.stringify(recipe)
         });
     },
+    updateRecipe(recipe) {
+        return fetch(`${baseUrl}/recipes/${recipe.id}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(recipe)
+        });
+    },
     deleteRecipe(recipeId){
         return fetch(`${baseUrl}/recipes/${recipeId}`, {
             method: "DELETE"

@@ -1,14 +1,9 @@
 {
   "recipes": [
     {
-      "id": 1,
-      "title": "Lasagna",
-      "instructions": "Make sauce. Cook noodles. Brown some ground meat. Then layer sauce, noodles, meat, cheese. Repeat layering once more time. Cook on 425 for 45 minutes."
-    },
-    {
-      "id": 2,
-      "title": "Burgers",
-      "instructions": "Preheat grill to 400 degress. Make 6 ground meat patties that are 1 inch thick. Grill meat for 2 minutes on each side."
+      "title": "Burgers and fries",
+      "instructions": "Preheat grill to 400 degress. Make 6 ground meat patties that are 1 inch thick. Grill meat for 2 minutes on each side.\nAdd some fries",
+      "id": 2
     },
     {
       "id": 3,
@@ -16,14 +11,59 @@
       "instructions": "Boil water. Add macaroni. Cook for 6 minutes. Add cheese and milk. Mix."
     },
     {
-      "id": 4,
-      "title": "Orzo Salad",
-      "instructions": "Cook orzo. Dice tomatoes, cucumbers, and olives. Mince garlic, oregano, basic, and parsley. Mix herbs, pasta, and feta cheese in a bowl. Add dressing. Let cool for 3 hours."
+      "title": "Sushi",
+      "instructions": "Catch and release onto my plate",
+      "id": 6
     },
     {
-      "title": "bacon",
-      "instructions": "fry it",
-      "id": 5
+      "title": "banana pudding salad",
+      "instructions": "makes you feel better about yourself if you don't think too hard",
+      "id": 8
+    },
+    {
+      "title": "Jack's Grandmother's recipe",
+      "instructions": "do some unexpected stuff",
+      "id": 9
+    },
+    {
+      "title": "something",
+      "instructions": "cook it",
+      "id": 10
+    },
+    {
+      "title": "asdfsd",
+      "instructions": "asdfsdfa",
+      "id": 11
+    },
+    {
+      "title": "asdfsd",
+      "instructions": "asdfsdfa",
+      "id": 12
+    },
+    {
+      "title": "Ice Cream",
+      "instructions": "Just buy it",
+      "id": 13
+    },
+    {
+      "title": "Burgers",
+      "instructions": "Go to Burger King",
+      "id": 14
+    },
+    {
+      "title": "Cheese",
+      "instructions": "milk a cow, then...process it the correct way",
+      "id": 15
+    },
+    {
+      "title": "Roast Duck",
+      "instructions": "Roast it",
+      "id": 16
+    },
+    {
+      "title": "fake meat",
+      "instructions": "you don't need this",
+      "id": 17
     }
   ]
 }
